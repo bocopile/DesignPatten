@@ -1,4 +1,4 @@
-package com.person.design.strategy;
+package com.person.design.strategy.concept;
 
 public interface Ainterface {
 	
