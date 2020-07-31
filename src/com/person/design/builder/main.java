@@ -18,6 +18,13 @@ public class main {
         Computer computer2 = factory.getComputer();
 
         System.out.println(computer2.toString());
+
+        Computer computer3 = ComputerBuilder
+                .start()
+                .setCpu("i9")
+                .setRam("32G")
+                .build();
+        System.out.println(computer3.toString());
         //       Computer computer = factory.makeAndGet();
 
         // Computer computer = new Computer("i7", "16G", "256G SSD");
